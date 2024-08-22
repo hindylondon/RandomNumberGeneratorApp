@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:showIn="@layout/content_main">
+
+
+    <include layout="@layout/instructions_textview" />
+
+    <include layout="@layout/from_textinput" />
+
+    <include layout="@layout/to_textinput" />
+
+    <include layout="@layout/results_textview" />
+
+
+</merge>

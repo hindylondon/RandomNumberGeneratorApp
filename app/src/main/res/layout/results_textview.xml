@@ -1,0 +1,23 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="@layout/content_main">
+
+<!-- Result TextView -->
+<TextView
+    android:id="@+id/results"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:background="@color/md_theme_onPrimaryContainer"
+    android:gravity="center"
+    android:padding="48dp"
+    android:text="0"
+    android:textAppearance="@style/TextAppearance.Material3.BodyMedium"
+    android:textColor="?attr/colorSecondary"
+    android:textSize="48sp"
+    android:textStyle="bold"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/to_input_layout" />
+</merge>

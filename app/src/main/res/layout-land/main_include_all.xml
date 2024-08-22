@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:showIn="@layout/content_main">
+
+    <!-- Centered Instructions at the Top -->
+    <include
+        android:id="@+id/top_bar"
+        layout="@layout/instructions_textview" />
+
+    <!-- From Input -->
+    <include
+        android:id="@+id/from"
+        layout="@layout/from_textinput" />
+
+    <!-- To Input -->
+    <include
+        android:id="@+id/to"
+        layout="@layout/to_textinput" />
+
+    <!-- Results TextView -->
+    <include
+        android:id="@+id/results"
+        layout="@layout/results_textview" />
+
+</merge>
